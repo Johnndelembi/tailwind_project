@@ -8,23 +8,23 @@
 </head>
 <body class="min-h-screen">
     <!-- navbar -->
-    <section class="relative items-center bg-white mx-auto p-4 top-0 z-10 sticky"> 
+    <section class="relative items-center mx-auto p-4 top-0 z-10"> 
     <nav class="md:mx-20">
         <!-- Flex column -->
          <div class="flex items-center justify-between">
             <!-- Logo -->
              <div class="pt-2">
-                <img src="img/logo.png" alt="" width="70" height="70">
+                <img src="img/logo.png" alt="" class="transform transition-all hover:scale-125 hover:shadow-2xl" width="70" height="70">
              </div>
              <!-- Menu items -->
             <div class="hidden space-x-6 md:flex">
-                <a href="#home" class="hover:text-green-500">Home</a>
-                <a href="#feature" class="hover:text-green-500">Features</a>
-                <a href="#community" class="hover:text-green-500">Community</a>
-                <a href="#contact" class="hover:text-green-500">Contacts</a>
+                <a href="#home" class="hover:font-bold">Home</a>
+                <a href="#feature" class="hover:font-bold">Features</a>
+                <a href="#community" class="hover:font-bold">Community</a>
+                <a href="#contact" class="hover:font-bold">Contacts</a>
             </div>
             <!-- button -->
-            <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-green-500 rounded-full baseline hover:bg-white md:block shadow-lg hover:text-green-900 hover:font-bold border border-solid hover:border-green-600 duration-500">
+            <a href="#" class="hidden md:block p-3 px-6 pt-2 text-black font-bold bg-white rounded-full baseline hover:bg-green-500 hover:shadow-lg hover:text-white hover:font-bold border border-solid border-black duration-300">
                 Get Started
             </a>
 
@@ -39,19 +39,19 @@
     <!-- Hero Section -->
     <section id="home" class="scroll-mt-40">
         <!-- Flex Container -->
-        <div class="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col-reverse items-center px-6 md:px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
             <!-- Left Item -->
-            <div class="flex flex-col space-y-8  mb-20 md:w-1/2">
-                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                    The only social network you need.
+            <div class="flex flex-col space-y-8  mb-6 mt-6 md:w-1/2">
+                <h1 class="max-w-md text-5xl font-bold text-center md:text-left">
+                    The only <span class="text-green-500">social network</span> you need.
                 </h1>
-                <p class="max-w-sm text-center text-lg text-gray-700 md:text-left">
+                <p class="max-w-sm text-center text-lg text-gray-700 md:text-left font-mono">
                     Help build an <span class="font-bold text-gray-800 ">inteconnected</span> students community where <span class="font-bold text-gray-800">no one</span> is left behind,
                     <span class="font-bold text-gray-800">Get started</span> with Mwanachuo today.
                     
                 </p>
                 <div class="flex justify-center md:justify-start">
-                    <a href="#" class="p-3 px-6 pt-2 font-bold text-green-600 bg-white rounded-full baseline hover:bg-green-500 border border-solid border-green-600 hover:text-white hover:font-semibold duration-500 shadow-lg">
+                    <a href="#" class="p-3 px-6 pt-2 font-bold text-green-600 bg-white rounded-full baseline hover:bg-green-500 border border-solid border-green-600 hover:text-white hover:font-semibold duration-500 shadow-lg animate-bounce font-mono">
                         Watch Video
                     </a>
                 </div>
@@ -59,23 +59,23 @@
 
              <!-- image item -->  
             <div class="md:w-1/2">
-                <img src="img/hero-image2.png" alt="" class="md:mt-12 md:mb-32">
+                <img src="img/hero-image2.png" alt="" class="md:w-90 md:mt-12 md:mb-32">
             </div>
         </div>
     </section>
     
     <!-- Features Section -->
      <section id="feature" class="scroll-mt-20 md:bg-[url('/img/hero2.jpeg')] bg-cover bg-center">
-        <div class="container flex flex-col py-20 px-4 space-x-12 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col py-6 px-4 space-x-12 mx-auto mt-10 mb-10 space-y-12 md:space-y-0 md:flex-row">
             <!-- Whats different -->
              <div class="flex flex-col space-y-8 md:w-1/2">
                 <h2 class="max-w-md text-center font-bold text-4xl md:text-left px-2">
                     What's different about <span class="text-green-500">Mwanachuo?</span>
                 </h2>
                 <div class="px-2">
-                    <img src="img/student12.jpeg" alt="" class="rounded-2xl">
+                    <img src="img/student12.jpeg" alt="" class="transform transition-all hover:scale-x-110 rounded-2xl">
                 </div>
-                <p class="max-w sm text-center text-gray-700 md:text-left">
+                <p class="max-w sm text-center text-gray-700 md:text-left font-mono">
                     Mwanachuo provides all the functionality a university student needs without the complexity,
                     Our product is tailor made for a modern digital community which understands the need
                     for social interactions and how to it can be leveraged in micro-managing information sources
@@ -103,7 +103,7 @@
                         <h3 class="hidden mb-4 text-lg font-bold md:block">
                             Create an account and start making friends.
                         </h3>
-                        <p class="text-gray-700">
+                        <p class="text-gray-700 font-mono">
                             Mwanachuo allows you to create your own pack of friends and start sharing interactions with, 
                             A first time user is able to create an account and sign into their personal accounts 
                             and start making posts and choosing their friends. 
@@ -130,7 +130,7 @@
                         <h3 class="hidden mb-4 text-lg font-bold md:block">
                             Create posts that speaks to your target audience..
                         </h3>
-                        <p class="text-gray-700">
+                        <p class="text-gray-700 font-mono">
                                 Mwanachuo algorithm is tailor made to make sure your post reaches your intended
                                 audience, whether its an announcement, news update or else, Mwanachuo guarrantees
                                 it reaches the receiving ends profile.
@@ -157,7 +157,7 @@
                         <h3 class="hidden mb-4 text-lg font-bold md:block">
                             A personalized marketing campaigns package tailored for student unions.
                         </h3>
-                        <p class="text-gray-700">
+                        <p class="text-gray-700 font-mono">
                             Mwanachuo offers a marketting plan for students unions, Boost numbers on 
                             awereness and marketting campaigns, helping unions reach their goals and milestones.
                         </p>
@@ -168,9 +168,10 @@
      </section>
 
     <!-- Community Section -->
-     <section id="community" class="scroll-mt-40 md:my-24">
+     <section id="community" class="scroll-mt-40 my-12 md:my-24">
+
         <!-- Container for heading and testimonials block -->
-        <div class="max-w 6xl px-5 mx-auto text-center">
+        <div class="max-w 6xl px-5 py-8 mx-auto text-center">
             <!-- Heading -->
             <h2 class="text-center font-bold text-4xl">
                 Community Reviews
@@ -184,7 +185,7 @@
                     <h5 class="text-lg font-bold">
                         Test User 1
                     </h5>
-                    <p class="text-md text-gray-900">
+                    <p class="text-md text-gray-900 font-mono">
                         "Mwanachuo user interface makes it easy for a student to understand and it is
                         very helpful to students when it comes to getting information."
                     </p>
@@ -196,7 +197,7 @@
                     <h5 class="text-lg font-bold">
                         Test User 2
                     </h5>
-                    <p class="text-md  text-gray-900">
+                    <p class="text-md  text-gray-900 font-mono">
                         "Mwanachuo user interface makes it easy for a student to understand and it is
                         very helpful to students when it comes to getting information."
                     </p>
@@ -208,7 +209,7 @@
                     <h5 class="text-lg font-bold">
                         Test User 3
                     </h5>
-                    <p class="text-md text-gray-900">
+                    <p class="text-md text-gray-900 font-mono">
                         "Mwanachuo user interface makes it easy for a student to understand and it is
                         very helpful to students when it comes to getting information."
                     </p>
@@ -216,7 +217,7 @@
             </div>
 
              <!-- button -->
-            <div class="my-16">
+            <div class="mt-16">
                 <a href="#" class="p-3 px-6 pt-2 text-white bg-green-500 rounded-full baseline border border-solid hover:border-slate-900 hover:bg-white hover:text-gray-900 hover:font-semibold duration-500">
                     Get Started
                 </a>
@@ -233,7 +234,7 @@
                 Support Us by donating to our cause.
             </h2>
             <!-- CTA button -->
-            <div>
+            <div class="animate-bounce">
                 <a href="#" class="p-3 px-6 pt-2 text-green bg-white rounded-full baseline shadow-3xl hover:bg-slate-900 hover:text-white duration-500">
                     Donate
                 </a>
