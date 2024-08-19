@@ -13,7 +13,7 @@
         <!-- Flex column -->
          <div class="flex items-center justify-between">
             <!-- Logo -->
-             <div class="pt-2 place-content-center">
+             <div class="pt-2">
                 <img src="img/logo.png" alt="" class="transform transition-all hover:scale-125 hover:shadow-2xl" width="70" height="70">
              </div>
              <!-- Menu items -->
@@ -46,7 +46,7 @@
                     The only <span class="text-green-500">social network</span> you need.
                 </h1>
                 <p class="max-w-sm text-center text-lg text-gray-700 md:text-left font-mono">
-                    Help build an <span class="font-bold text-gray-800 ">inteconnected</span> students community where <span class="font-bold text-gray-800">no one</span> is left behind,
+                    Help build an <span class="font-bold text-gray-800">inteconnected</span> students community where <span class="font-bold text-gray-800">no one</span> is left behind,
                     <span class="font-bold text-gray-800">Get started</span> with Mwanachuo today.
                     
                 </p>
@@ -66,14 +66,14 @@
     
     <!-- Features Section -->
      <section id="feature" class="scroll-mt-2 md:bg-[url('/img/hero2.jpeg')] bg-cover bg-center">
-        <div class="container flex flex-col py-6 px-4 space-x-12 mx-auto mt-10 mb-10 space-y-12 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col py-12 px-4 space-x-12 mx-auto mt-10 mb-0 space-y-12 md:space-y-0 md:flex-row md:p-12">
             <!-- Whats different -->
              <div class="flex flex-col space-y-8 md:w-1/2">
                 <h2 class="max-w-md text-center font-bold text-4xl md:text-left px-2">
                     What's different about <span class="text-green-500">Mwanachuo?</span>
                 </h2>
                 <div class="px-2">
-                    <img src="img/student12.jpeg" alt="" class="transform transition-all hover:scale-x-110 rounded-2xl">
+                    <img src="img/john2.jpg" alt="" class="w-90 transform transition-all hover:scale-x-110 rounded-2xl">
                 </div>
                 <p class="max-w sm text-center text-gray-700 md:text-left font-mono">
                     Mwanachuo provides all the functionality a university student needs without the complexity,
@@ -168,12 +168,15 @@
      </section>
 
     <!-- Community Section -->
-     <section id="community" class="scroll-mt-16 my-12 md:my-24">
+     <section id="community" class="scroll-mt-16 my-0 md:my-0" style="padding: 120px 0; position: relative; clip-path: inset(0);">
+
+        <!-- background image -->
+        <img src="img/library1.jpg" alt="" class="" style="display: block; width: 100%; height: 100%; object-fit: cover; z-index: 1; position: fixed; top: 0; left: 0; opacity: 0.9;">
 
         <!-- Container for heading and testimonials block -->
-        <div class="max-w 6xl px-5 py-8 mx-auto text-center">
+        <div class="max-w 6xl px-5 mx-auto text-center" style="position: relative; z-index: 3;">
             <!-- Heading -->
-            <h2 class="text-center font-bold text-4xl">
+            <h2 class="text-center font-bold text-5xl md:text-6xl">
                 Community Reviews
             </h2>
 
@@ -217,7 +220,7 @@
             </div>
 
              <!-- button -->
-            <div class="mt-16">
+            <div class="mt-16 animate-bounce">
                 <a href="#" class="p-3 px-6 pt-2 text-white bg-green-500 rounded-full baseline border border-solid hover:border-slate-900 hover:bg-white hover:text-gray-900 hover:font-semibold duration-500">
                     Get Started
                 </a>
@@ -231,12 +234,12 @@
         <div class="container flex flex-col items-center justify-between px-6 py-32 md:space-y-0 md:flex-row mx-auto space-y-12 md:py-12">
             <!-- CTA Heading -->
             <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:text-left md:max-w-xl">
-                Support Us by donating to our cause.
+                Want to Support? <br>Join Mwanachuo community today.
             </h2>
             <!-- CTA button -->
             <div class="animate-bounce">
                 <a href="#" class="p-3 px-6 pt-2 text-green bg-white rounded-full baseline shadow-3xl hover:bg-slate-900 hover:text-white duration-500">
-                    Donate
+                    Join 
                 </a>
             </div>
         </div>
@@ -247,10 +250,12 @@
         <!-- Flex container -->
          <div class="container flex flex-col-reverse items-center justify-between px-6 py-10 mx auto space-y-8 md:flex-row md:space-y-0 md:items-center">
             <!-- Logo and social links -->
-             <div class="flex flex-col reverse justify-between space-y-12 items-center md:flex-col md:items-start md:space-y-6">
+             <div class="flex flex-col reverse justify-between space-y-12 space-x-12 items-center md:flex-col md:items-start md:space-y-6">
 
                 <div class="mx-auto my-6 text-center text-white md:hidden">
                     Copyright &copy; 2024, All Rights Reserved.
+                    <br><br>
+                    Created by <span class="font-bold font-mono text-md">John Ndelembi</span>
                 </div>
                 <!-- logo -->
                 <div class="">
@@ -264,7 +269,7 @@
                     </a>
                     <!-- Link 2:Twitter -->
                     <a href="#">
-                        <img src="img/logo1.png" class="h-8" alt="">
+                        <!-- <img src="img/logo1.png" class="h-8" alt=""> -->
                     </a>
                     <!-- Link 3:Instagram -->
                     <a href="#">
@@ -273,16 +278,16 @@
                 </div>
              </div>
              <!-- List Container -->
-            <div class="flex justify-around space-x-32">
+            <div class="flex justify-around space-x-12 px-24">
                 <div class="flex flex-col text-white space-y-3">
-                    <a href="#home" class="hover:text-gray-500">Home</a>
-                    <a href="#feature" class="hover:text-gray-500">Features</a>
-                    <a href="#" class="hover:text-gray-500">Email Us</a>
+                    <a href="#home" class="hover:font-bold">Home</a>
+                    <a href="#feature" class="hover:font-bold">Features</a>
+                    <a href="#" class="hover:font-bold">Email Us</a>
                 </div>
                 <div class="flex flex-col text-white space-y-3">
-                    <a href="#" class="hover:text-gray-500">Donate</a>
-                    <a href="#community" class="hover:text-gray-500">Community</a>
-                    <a href="#" class="hover:text-gray-500">Privacy Policy</a>
+                    <a href="#" class="hover:font-bold">Donate</a>
+                    <a href="#community" class="hover:font-bold">Community</a>
+                    <a href="#" class="hover:font-bold">Privacy Policy</a>
                 </div>
             </div>
 
@@ -295,7 +300,9 @@
                     </div>
                 </form>
                 <div class="hidden text-white md:block">
-                    Copyright &copy; 2024, All Rights Reserved.
+                    Copyright &copy; Mwanachuo 2024, All Rights Reserved.
+                    <br><br>
+                    Created by <span class="font-bold font-mono text-md">John Ndelembi</span>
                 </div>
              </div>
          </div>
