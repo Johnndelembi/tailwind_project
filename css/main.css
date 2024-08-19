@@ -711,6 +711,10 @@ video {
   max-width: 24rem;
 }
 
+.max-w-4 {
+  max-width: 1rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -778,6 +782,10 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
